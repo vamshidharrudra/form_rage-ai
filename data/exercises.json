@@ -1,0 +1,235 @@
+{
+    "Squat": {
+        "type": "repetition",
+        "view": "front_or_side",
+        "primary_signal": "knee_angle",
+        "secondary_signal": "hip_angle",
+        "rep_direction": "down_up",
+        "landmarks_required": [
+            "left_hip",
+            "right_hip",
+            "left_knee",
+            "right_knee",
+            "left_ankle",
+            "right_ankle"
+        ],
+        "analysis_points": [
+            "posture",
+            "knee_alignment",
+            "hip_depth",
+            "foot_position",
+            "stability",
+            "technique"
+        ],
+        "minimum_rep_duration": 0.8,
+        "description": "Lower the hips and return to standing."
+    },
+
+    "Push-up": {
+        "type": "repetition",
+        "view": "side",
+        "primary_signal": "elbow_angle",
+        "secondary_signal": "shoulder_height",
+        "rep_direction": "down_up",
+        "landmarks_required": [
+            "shoulder",
+            "elbow",
+            "wrist",
+            "hip",
+            "ankle"
+        ],
+        "analysis_points": [
+            "body_alignment",
+            "elbow_position",
+            "hand_position",
+            "chest_depth",
+            "hip_alignment",
+            "stability"
+        ],
+        "minimum_rep_duration": 0.7,
+        "description": "Lower the body and push back to the starting position."
+    },
+
+    "Lunge": {
+        "type": "repetition",
+        "view": "front_or_side",
+        "primary_signal": "front_knee_angle",
+        "secondary_signal": "hip_height",
+        "rep_direction": "down_up",
+        "landmarks_required": [
+            "hip",
+            "knee",
+            "ankle"
+        ],
+        "analysis_points": [
+            "knee_alignment",
+            "knee_depth",
+            "torso_posture",
+            "foot_position",
+            "balance",
+            "technique"
+        ],
+        "minimum_rep_duration": 0.8,
+        "description": "Step or move into a lunge and return to the starting position."
+    },
+
+    "Bicep Curl": {
+        "type": "repetition",
+        "view": "front_or_side",
+        "primary_signal": "elbow_angle",
+        "secondary_signal": "wrist_position",
+        "rep_direction": "curl_extend",
+        "landmarks_required": [
+            "shoulder",
+            "elbow",
+            "wrist"
+        ],
+        "analysis_points": [
+            "elbow_stability",
+            "range_of_motion",
+            "upper_arm_position",
+            "wrist_position",
+            "control",
+            "technique"
+        ],
+        "minimum_rep_duration": 0.6,
+        "description": "Curl the hand toward the shoulder and return to extension."
+    },
+
+    "Shoulder Press": {
+        "type": "repetition",
+        "view": "front_or_side",
+        "primary_signal": "elbow_angle",
+        "secondary_signal": "wrist_height",
+        "rep_direction": "up_down",
+        "landmarks_required": [
+            "shoulder",
+            "elbow",
+            "wrist"
+        ],
+        "analysis_points": [
+            "arm_alignment",
+            "elbow_position",
+            "wrist_position",
+            "range_of_motion",
+            "torso_stability",
+            "technique"
+        ],
+        "minimum_rep_duration": 0.8,
+        "description": "Press the hands upward and return them under control."
+    },
+
+    "Lateral Raise": {
+        "type": "repetition",
+        "view": "front",
+        "primary_signal": "arm_angle",
+        "secondary_signal": "wrist_height",
+        "rep_direction": "up_down",
+        "landmarks_required": [
+            "shoulder",
+            "elbow",
+            "wrist"
+        ],
+        "analysis_points": [
+            "arm_path",
+            "elbow_position",
+            "wrist_position",
+            "shoulder_stability",
+            "range_of_motion",
+            "control"
+        ],
+        "minimum_rep_duration": 0.7,
+        "description": "Raise the arms laterally and return them under control."
+    },
+
+    "Front Raise": {
+        "type": "repetition",
+        "view": "front_or_side",
+        "primary_signal": "wrist_height",
+        "secondary_signal": "arm_angle",
+        "rep_direction": "up_down",
+        "landmarks_required": [
+            "shoulder",
+            "elbow",
+            "wrist"
+        ],
+        "analysis_points": [
+            "arm_path",
+            "elbow_position",
+            "wrist_position",
+            "torso_stability",
+            "range_of_motion",
+            "control"
+        ],
+        "minimum_rep_duration": 0.7,
+        "description": "Raise the arms forward and return them under control."
+    },
+
+    "Sit-up / Crunch": {
+        "type": "repetition",
+        "view": "side",
+        "primary_signal": "torso_angle",
+        "secondary_signal": "hip_angle",
+        "rep_direction": "up_down",
+        "landmarks_required": [
+            "shoulder",
+            "hip",
+            "knee"
+        ],
+        "analysis_points": [
+            "torso_movement",
+            "range_of_motion",
+            "hip_position",
+            "neck_position",
+            "control",
+            "technique"
+        ],
+        "minimum_rep_duration": 0.8,
+        "description": "Raise the torso and return under control."
+    },
+
+    "Jumping Jack": {
+        "type": "repetition",
+        "view": "front",
+        "primary_signal": "wrist_ankle_spread",
+        "secondary_signal": "wrist_height",
+        "rep_direction": "open_close",
+        "landmarks_required": [
+            "shoulder",
+            "wrist",
+            "hip",
+            "ankle"
+        ],
+        "analysis_points": [
+            "arm_range",
+            "leg_range",
+            "coordination",
+            "landing",
+            "symmetry",
+            "rhythm"
+        ],
+        "minimum_rep_duration": 0.5,
+        "description": "Jump while opening arms and legs, then return to the starting position."
+    },
+
+    "Plank": {
+        "type": "hold",
+        "view": "side",
+        "primary_signal": "body_alignment",
+        "secondary_signal": "hip_height",
+        "landmarks_required": [
+            "shoulder",
+            "hip",
+            "ankle"
+        ],
+        "analysis_points": [
+            "spine_alignment",
+            "hip_alignment",
+            "shoulder_alignment",
+            "stability",
+            "hold_duration"
+        ],
+        "minimum_rep_duration": 0,
+        "description": "Maintain a stable plank position for as long as possible."
+    }
+}
