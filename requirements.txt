@@ -1,7 +1,7 @@
 streamlit
 groq
-mediapipe==1.0.1
-opencv-contrib-python==5.0.0.93
-numpy
+mediapipe==0.10.21
+opencv-contrib-python==4.11.0.86
+numpy==1.26.4
 pandas
 Pillow
